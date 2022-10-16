@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+img{
+    display: block;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+}
+header{
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav a:hover{
+    background-color: darkred;
+    transition: 1.3s;
+}
+h2{
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+h4{
+    padding: 40px;
+}
