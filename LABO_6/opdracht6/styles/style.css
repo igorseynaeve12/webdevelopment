@@ -4,7 +4,6 @@
 }
 .checklist{
     margin-top: 10px;
-    list-style-image: disc;
     list-style-image: url("img/vinkleeg.png");
 }
 .checked{
