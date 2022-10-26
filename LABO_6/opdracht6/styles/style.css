@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.checklist{
+    margin-top: 10px;
+    list-style-image: disc;
+    list-style-image: url("img/vinkleeg.png");
+}
+.checked{
+    list-style-image: url("img/vink.png");
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

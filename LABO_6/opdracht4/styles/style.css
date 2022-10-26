@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "verdana", sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+h1{
+    font-variant: all-small-caps;
+    background-color: red;
+    margin-bottom: 40px;
+}
+ul{
+    margin: 40px;
+}
+a:hover{
+    border: solid;
+    border-radius: 10px;
+    color: greenyellow;
+    padding: 5px;
+    margin: 40px;
+}
+p{
+    margin: 40px;
+}
+.stippelrandjes{
+    border: dotted 1px;
+    color: aqua;
+}
