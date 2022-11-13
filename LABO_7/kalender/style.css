@@ -1,0 +1,25 @@
+table{
+    border:solid black;
+    border-spacing: 0;
+    width: 225px;
+}
+thead th{
+    background-color: rgb(170,170,200);
+}
+td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+.days td{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240) ;
+}
+td.last{
+    color: gray;
+    background-color: lightgrey;
+}
+.free{
+    background-color: rgb(250,120,120);
+}

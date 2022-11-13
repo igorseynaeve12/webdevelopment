@@ -1,0 +1,162 @@
+body {
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.personal h2 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.pers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personal img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 50px;
+}
+
+.hobbies h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hob {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.hob article {
+    padding: 10px;
+}
+
+.likes ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.friends table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.friends table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.friends {
+    font: normal 12px/150% Courier New, Courier, monospace;
+    background: #fff;
+    overflow: hidden;
+    border: 3px solid #006699;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.friends table td, .friends table th {
+    padding: 11px 9px;
+}
+
+.friends table thead th {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color: #006699;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 4px solid #0070A8;
+}
+
+.friends table thead th:first-child {
+    border: none;
+}
+
+.friends table tbody td {
+    color: #6B0000;
+    border-left: 4px solid #1DF42C;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.friends table tbody .alt td {
+    background: #847CF4;
+    color: #046B00;
+}
+
+.friends table tbody td:first-child {
+    border-left: none;
+}
+
+.friends table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.friends table tfoot td div {
+    border-top: 1px solid #006699;
+    background: #F40000;
+}
+
+.friends table tfoot td {
+    padding: 0;
+    font-size: 12px
+}
+
+.friends table tfoot td div {
+    padding: 6px;
+}
+
+.friends table tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.friends table tfoot li {
+    display: inline;
+}
+
+.friends table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #990014;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4D994F), color-stop(1, #21FF3F));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4D994F', endColorstr='#21FF3F');
+    background-color: #4D994F;
+}
+
+.friends table tfoot ul.active, .friends table tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #6B9900;
+    color: #FFFFFF;
+    background: none;
+    background-color: #F70C0C;
+}
+.onbekend{
+    background-color: red;
+}
