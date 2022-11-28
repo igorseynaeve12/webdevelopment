@@ -1,0 +1,16 @@
+.een{
+    width: 550px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.leegte{
+    padding: 10px;
+    margin: 10px;
+}
+.leegte2{
+    padding: 10px;
+    margin: 10px;
+}
