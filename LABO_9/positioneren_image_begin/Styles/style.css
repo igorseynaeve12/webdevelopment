@@ -1,0 +1,22 @@
+body{
+    max-width: 60%;
+    margin: auto;
+    font-size: 1.25em;
+}
+article:nth-child(even) > p > img{
+    float: right;
+    margin-left: 10px;
+}
+article:nth-child(odd) > p > img{
+    float: left;
+    margin-left: 20px;
+}
+article{
+    border: solid black 1px;
+    margin: 10px;
+    height: 270px;
+    display: inline-block;
+}
+img{
+    margin-right: 10px;
+}
