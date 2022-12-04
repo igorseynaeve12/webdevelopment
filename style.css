@@ -31,6 +31,7 @@ img{
     color: white;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .lijst li{
     padding: 20px;
