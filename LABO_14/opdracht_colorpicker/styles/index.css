@@ -1,0 +1,6 @@
+.colorBlock{
+    width: 100px;
+    height: 100px;
+    border: black 1px;
+    border-radius: 50%;
+}
