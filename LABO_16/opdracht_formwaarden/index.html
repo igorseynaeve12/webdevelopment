@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht gemeenten</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<label for="roker">is roker</label>
+<input type="checkbox" name="roker" id="roker">
+<br>
+<label for="">Moedertaal</label>
+
+<input type="radio" name="taal" id="nederlands">
+<label for="nederlands">Nederlands</label>
+
+<input type="radio" name="taal" id="frans">
+<label for="frans">Frans</label>
+
+<input type="radio" name="taal" id="engels">
+<label for="engels">Engels</label>
+<br>
+
+<label for="land">Favoriete buurland</label>
+<select name="buurland" id="land">
+    <option value="Nederland" name="favoland">Nederland</option>
+    <option value="Frankrijk" name="favoland">Frankrijk</option>
+    <option value="Duitsland" name="favoland">Duitsland</option>
+</select>
+<br>
+<label for="bestelling">Bestelling</label>
+<select name="bestelling" id="bestelling" multiple>
+    <option value="aardappelen" name="best">Aardappelen</option>
+    <option value="Melk" name="best">Melk</option>
+    <option value="Brood" name="best">Brood</option>
+    <option value="Biefstuk" name="best">Biefstuk</option>
+    <option value="Chips" name="best">Chips</option>
+    <option value="Krant" name="best">Krant</option>
+</select>
+
+<br>
+<input type="button" id="result" name="result" value="Toon resultaat">
+<script src="scripts/index.js"></script>
+</body>
+</html>
