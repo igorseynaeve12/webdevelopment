@@ -64,15 +64,12 @@ const save = () => {
 }
 
 const remove = (event) => {
-    let kleurPallet = document.querySelectorAll("#savedColors");
-
-    let kleuren = kleurPallet.childNodes;
-
-    console.log(kleurPallet);
+    event.target.parentElement.remove();
 }
 
 const clickKleur = (event) => {
     let block = document.querySelector(".kleurblok");
+
     block.style.backgroundColor = event.target.style.backgroundColor;
 }
 

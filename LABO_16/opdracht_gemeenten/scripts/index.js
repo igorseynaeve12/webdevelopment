@@ -1,26 +1,22 @@
 const setup = () => {
-// deze code wordt pas uitgevoerd als de pagina volledig is ingeladen
+    const selectie = document.querySelector("#select");
     let gemeenten = [];
     let gemeente = "";
-    while(gemeente !== "stop"){
-        gemeente = window.prompt("Gemeente: ");
-        gemeenten.push(gemeente);
-        gemeenten.sort();
 
 
 
-
-        let optie = document.createElement("option");
-        optie.textContent = gemeente;
+    while (gemeente !== "stop") {
+        gemeente = window.prompt("Gemeente:").toLowerCase()
+        if (gemeente !== "stop") {
+            gemeenten.push(gemeente);
+        }
     }
-    console.log(gemeenten);
-    document.getElementById("select");
+    gemeenten.sort().forEach((element) => {
+        let keuze = document.createElement("option");
 
+        keuze.textContent = element;
+
+        gemeenten.insertAdjacentElement("beforeend", keuze);
+    })
 }
-
-const stop = () => {
-}
-
-
-
-window.addEventListener("load", setup);
+window.addEventListener("load", setup)
