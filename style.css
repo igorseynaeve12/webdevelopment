@@ -20,12 +20,15 @@ img{
 .lijst a{
     text-decoration: none;
     color: white;
-    padding: 50px;
+    padding: 10px;
     font-size: 20px;
+    border: solid 1px black;
+    border-radius: 20px;
 }
 .lijst a:hover{
     color: greenyellow;
     transition: 1s;
+    background-color: purple;
 }
 .lijst{
     color: white;
