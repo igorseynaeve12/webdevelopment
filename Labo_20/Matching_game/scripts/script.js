@@ -70,5 +70,4 @@ const toonVoorkant = (achterkant) => {
 }
 
 
-
 window.addEventListener("load",setup);
