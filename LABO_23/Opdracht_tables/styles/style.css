@@ -1,0 +1,21 @@
+.tabel{
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid black 1px;
+}
+.head{
+    background-color: darkblue;
+    color: white;
+    padding: 2px;
+}
+.td{
+    padding: 5px;
+    width: 300px;
+}
+.td:nth-child(even){
+    background-color: grey;
+    padding: 10px 0 10px 0px;
+}
+.tables{
+    display: flex;
+}
